@@ -1,0 +1,24 @@
+.container {
+    background-color: white;
+    border-radius: 8px;
+    height: 67vh;
+    overflow: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    padding: 16px;
+    border-bottom: 1px #d9d9d9 solid;
+}
+
+.header {
+    font-weight: 700;
+    background-color: 1px #eeb751 solid;
+}
+
+.row p {
+    overflow-wrap: anywhere;
+}
+
